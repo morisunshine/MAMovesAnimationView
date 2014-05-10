@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080A88AE191E66CB0078F987 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A88AD191E66CB0078F987 /* Foundation.framework */; };
+		080A88B0191E66CB0078F987 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A88AF191E66CB0078F987 /* CoreGraphics.framework */; };
+		080A88B2191E66CB0078F987 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A88B1191E66CB0078F987 /* UIKit.framework */; };
+		080A88B8191E66CC0078F987 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 080A88B6191E66CC0078F987 /* InfoPlist.strings */; };
+		080A88BA191E66CC0078F987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 080A88B9191E66CC0078F987 /* main.m */; };
+		080A88BE191E66CC0078F987 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 080A88BD191E66CC0078F987 /* MAAppDelegate.m */; };
+		080A88C1191E66CC0078F987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080A88BF191E66CC0078F987 /* Main.storyboard */; };
+		080A88C4191E66CC0078F987 /* MAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080A88C3191E66CC0078F987 /* MAViewController.m */; };
+		080A88C6191E66CC0078F987 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080A88C5191E66CC0078F987 /* Images.xcassets */; };
+		080A88CD191E66CC0078F987 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A88CC191E66CC0078F987 /* XCTest.framework */; };
+		080A88CE191E66CC0078F987 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A88AD191E66CB0078F987 /* Foundation.framework */; };
+		080A88CF191E66CC0078F987 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A88B1191E66CB0078F987 /* UIKit.framework */; };
+		080A88D7191E66CC0078F987 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 080A88D5191E66CC0078F987 /* InfoPlist.strings */; };
+		080A88D9191E66CC0078F987 /* MAMovesAnimationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 080A88D8191E66CC0078F987 /* MAMovesAnimationViewTests.m */; };
+		080A88E5191E66FE0078F987 /* MACustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 080A88E4191E66FE0078F987 /* MACustomView.m */; };
+		080A88E8191E67740078F987 /* MAMovesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 080A88E7191E67740078F987 /* MAMovesAnimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		080A88D0191E66CC0078F987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080A88A2191E66CB0078F987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080A88A9191E66CB0078F987;
+			remoteInfo = MAMovesAnimationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080A88AA191E66CB0078F987 /* MAMovesAnimationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAMovesAnimationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080A88AD191E66CB0078F987 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		080A88AF191E66CB0078F987 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		080A88B1191E66CB0078F987 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		080A88B5191E66CC0078F987 /* MAMovesAnimationView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAMovesAnimationView-Info.plist"; sourceTree = "<group>"; };
+		080A88B7191E66CC0078F987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		080A88B9191E66CC0078F987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		080A88BB191E66CC0078F987 /* MAMovesAnimationView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAMovesAnimationView-Prefix.pch"; sourceTree = "<group>"; };
+		080A88BC191E66CC0078F987 /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
+		080A88BD191E66CC0078F987 /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
+		080A88C0191E66CC0078F987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080A88C2191E66CC0078F987 /* MAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAViewController.h; sourceTree = "<group>"; };
+		080A88C3191E66CC0078F987 /* MAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAViewController.m; sourceTree = "<group>"; };
+		080A88C5191E66CC0078F987 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		080A88CB191E66CC0078F987 /* MAMovesAnimationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAMovesAnimationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080A88CC191E66CC0078F987 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		080A88D4191E66CC0078F987 /* MAMovesAnimationViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAMovesAnimationViewTests-Info.plist"; sourceTree = "<group>"; };
+		080A88D6191E66CC0078F987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		080A88D8191E66CC0078F987 /* MAMovesAnimationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAMovesAnimationViewTests.m; sourceTree = "<group>"; };
+		080A88E3191E66FE0078F987 /* MACustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACustomView.h; sourceTree = "<group>"; };
+		080A88E4191E66FE0078F987 /* MACustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACustomView.m; sourceTree = "<group>"; };
+		080A88E6191E67740078F987 /* MAMovesAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMovesAnimationView.h; sourceTree = "<group>"; };
+		080A88E7191E67740078F987 /* MAMovesAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMovesAnimationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080A88A7191E66CB0078F987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080A88B0191E66CB0078F987 /* CoreGraphics.framework in Frameworks */,
+				080A88B2191E66CB0078F987 /* UIKit.framework in Frameworks */,
+				080A88AE191E66CB0078F987 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080A88C8191E66CC0078F987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080A88CD191E66CC0078F987 /* XCTest.framework in Frameworks */,
+				080A88CF191E66CC0078F987 /* UIKit.framework in Frameworks */,
+				080A88CE191E66CC0078F987 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080A88A1191E66CB0078F987 = {
+			isa = PBXGroup;
+			children = (
+				080A88B3191E66CB0078F987 /* MAMovesAnimationView */,
+				080A88D2191E66CC0078F987 /* MAMovesAnimationViewTests */,
+				080A88AC191E66CB0078F987 /* Frameworks */,
+				080A88AB191E66CB0078F987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		080A88AB191E66CB0078F987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080A88AA191E66CB0078F987 /* MAMovesAnimationView.app */,
+				080A88CB191E66CC0078F987 /* MAMovesAnimationViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080A88AC191E66CB0078F987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				080A88AD191E66CB0078F987 /* Foundation.framework */,
+				080A88AF191E66CB0078F987 /* CoreGraphics.framework */,
+				080A88B1191E66CB0078F987 /* UIKit.framework */,
+				080A88CC191E66CC0078F987 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		080A88B3191E66CB0078F987 /* MAMovesAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				080A88E2191E66EE0078F987 /* source */,
+				080A88BC191E66CC0078F987 /* MAAppDelegate.h */,
+				080A88BD191E66CC0078F987 /* MAAppDelegate.m */,
+				080A88BF191E66CC0078F987 /* Main.storyboard */,
+				080A88C2191E66CC0078F987 /* MAViewController.h */,
+				080A88C3191E66CC0078F987 /* MAViewController.m */,
+				080A88C5191E66CC0078F987 /* Images.xcassets */,
+				080A88B4191E66CC0078F987 /* Supporting Files */,
+			);
+			path = MAMovesAnimationView;
+			sourceTree = "<group>";
+		};
+		080A88B4191E66CC0078F987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				080A88B5191E66CC0078F987 /* MAMovesAnimationView-Info.plist */,
+				080A88B6191E66CC0078F987 /* InfoPlist.strings */,
+				080A88B9191E66CC0078F987 /* main.m */,
+				080A88BB191E66CC0078F987 /* MAMovesAnimationView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		080A88D2191E66CC0078F987 /* MAMovesAnimationViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				080A88D8191E66CC0078F987 /* MAMovesAnimationViewTests.m */,
+				080A88D3191E66CC0078F987 /* Supporting Files */,
+			);
+			path = MAMovesAnimationViewTests;
+			sourceTree = "<group>";
+		};
+		080A88D3191E66CC0078F987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				080A88D4191E66CC0078F987 /* MAMovesAnimationViewTests-Info.plist */,
+				080A88D5191E66CC0078F987 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		080A88E2191E66EE0078F987 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				080A88E3191E66FE0078F987 /* MACustomView.h */,
+				080A88E4191E66FE0078F987 /* MACustomView.m */,
+				080A88E6191E67740078F987 /* MAMovesAnimationView.h */,
+				080A88E7191E67740078F987 /* MAMovesAnimationView.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080A88A9191E66CB0078F987 /* MAMovesAnimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080A88DC191E66CC0078F987 /* Build configuration list for PBXNativeTarget "MAMovesAnimationView" */;
+			buildPhases = (
+				080A88A6191E66CB0078F987 /* Sources */,
+				080A88A7191E66CB0078F987 /* Frameworks */,
+				080A88A8191E66CB0078F987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAMovesAnimationView;
+			productName = MAMovesAnimationView;
+			productReference = 080A88AA191E66CB0078F987 /* MAMovesAnimationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		080A88CA191E66CC0078F987 /* MAMovesAnimationViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080A88DF191E66CC0078F987 /* Build configuration list for PBXNativeTarget "MAMovesAnimationViewTests" */;
+			buildPhases = (
+				080A88C7191E66CC0078F987 /* Sources */,
+				080A88C8191E66CC0078F987 /* Frameworks */,
+				080A88C9191E66CC0078F987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080A88D1191E66CC0078F987 /* PBXTargetDependency */,
+			);
+			name = MAMovesAnimationViewTests;
+			productName = MAMovesAnimationViewTests;
+			productReference = 080A88CB191E66CC0078F987 /* MAMovesAnimationViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080A88A2191E66CB0078F987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sheldon;
+				TargetAttributes = {
+					080A88CA191E66CC0078F987 = {
+						TestTargetID = 080A88A9191E66CB0078F987;
+					};
+				};
+			};
+			buildConfigurationList = 080A88A5191E66CB0078F987 /* Build configuration list for PBXProject "MAMovesAnimationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080A88A1191E66CB0078F987;
+			productRefGroup = 080A88AB191E66CB0078F987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080A88A9191E66CB0078F987 /* MAMovesAnimationView */,
+				080A88CA191E66CC0078F987 /* MAMovesAnimationViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080A88A8191E66CB0078F987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080A88C6191E66CC0078F987 /* Images.xcassets in Resources */,
+				080A88B8191E66CC0078F987 /* InfoPlist.strings in Resources */,
+				080A88C1191E66CC0078F987 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080A88C9191E66CC0078F987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080A88D7191E66CC0078F987 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080A88A6191E66CB0078F987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080A88BE191E66CC0078F987 /* MAAppDelegate.m in Sources */,
+				080A88E8191E67740078F987 /* MAMovesAnimationView.m in Sources */,
+				080A88E5191E66FE0078F987 /* MACustomView.m in Sources */,
+				080A88C4191E66CC0078F987 /* MAViewController.m in Sources */,
+				080A88BA191E66CC0078F987 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080A88C7191E66CC0078F987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080A88D9191E66CC0078F987 /* MAMovesAnimationViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		080A88D1191E66CC0078F987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080A88A9191E66CB0078F987 /* MAMovesAnimationView */;
+			targetProxy = 080A88D0191E66CC0078F987 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		080A88B6191E66CC0078F987 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080A88B7191E66CC0078F987 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		080A88BF191E66CC0078F987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080A88C0191E66CC0078F987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		080A88D5191E66CC0078F987 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080A88D6191E66CC0078F987 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		080A88DA191E66CC0078F987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		080A88DB191E66CC0078F987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080A88DD191E66CC0078F987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAMovesAnimationView/MAMovesAnimationView-Prefix.pch";
+				INFOPLIST_FILE = "MAMovesAnimationView/MAMovesAnimationView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		080A88DE191E66CC0078F987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAMovesAnimationView/MAMovesAnimationView-Prefix.pch";
+				INFOPLIST_FILE = "MAMovesAnimationView/MAMovesAnimationView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		080A88E0191E66CC0078F987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MAMovesAnimationView.app/MAMovesAnimationView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAMovesAnimationView/MAMovesAnimationView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MAMovesAnimationViewTests/MAMovesAnimationViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		080A88E1191E66CC0078F987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MAMovesAnimationView.app/MAMovesAnimationView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAMovesAnimationView/MAMovesAnimationView-Prefix.pch";
+				INFOPLIST_FILE = "MAMovesAnimationViewTests/MAMovesAnimationViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080A88A5191E66CB0078F987 /* Build configuration list for PBXProject "MAMovesAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080A88DA191E66CC0078F987 /* Debug */,
+				080A88DB191E66CC0078F987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080A88DC191E66CC0078F987 /* Build configuration list for PBXNativeTarget "MAMovesAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080A88DD191E66CC0078F987 /* Debug */,
+				080A88DE191E66CC0078F987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		080A88DF191E66CC0078F987 /* Build configuration list for PBXNativeTarget "MAMovesAnimationViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080A88E0191E66CC0078F987 /* Debug */,
+				080A88E1191E66CC0078F987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080A88A2191E66CB0078F987 /* Project object */;
+}
